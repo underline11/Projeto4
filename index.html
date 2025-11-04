@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aplicação Web Acessível</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Aplicação Web Acessível</h1>
+    <nav aria-label="Menu principal">
+      <ul>
+        <li><a href="#inicio" data-route="inicio">Início</a></li>
+        <li><a href="#sobre" data-route="sobre">Sobre</a></li>
+        <li><a href="#contato" data-route="contato">Contato</a></li>
+      </ul>
+    </nav>
+    <button id="toggle-contraste" aria-pressed="false">🌙 Modo Escuro</button>
+  </header>
+
+  <main id="app" tabindex="0"></main>
+
+  <footer>
+    <p>© 2025 Projeto Prático — Todos os direitos reservados.</p>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
