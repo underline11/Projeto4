@@ -1,0 +1,41 @@
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+  --primary: #0a84ff;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--primary);
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  background: var(--primary);
+  color: white;
+}
+
+/* Modo escuro */
+.dark-mode {
+  --bg: #121212;
+  --text: #ffffff;
+  --primary: #90caf9;
+}
+
+/* Alto contraste */
+.alto-contraste {
+  --bg: #000000;
+  --text: #ffff00;
+  --primary: #ff0000;
+}
